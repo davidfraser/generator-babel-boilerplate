@@ -36,13 +36,12 @@ require the DOM API, see the `test/setup/node.js` file.
 
 ### npm Scripts
 
-- `npm test` - Lint the library and tests, then run the unit tests
-- `npm run lint` - Lint the source and unit tests
-- `npm run watch` - Continuously run the unit tests as you make changes to the source
+- `npm run test` - run the unit tests
+- `npm run test:watch` - Continuously run the unit tests as you make changes to the source
    and test files themselves
 - `npm run test-browser` - Build the library for use with the browser spec runner.
   Changes to the source will cause the runner to automatically refresh.
-- `npm run build` - Lint then build the library
+- `npm run build` - Build the library
 - `npm run coverage` - Generate a coverage report
 
 ### Browser Tests
@@ -64,18 +63,6 @@ out entirely from the boilerplate and not worry about it. To do that, update the
 build.
 
 If you'd like to set up Code Climate for your project, follow [the steps here](https://github.com/babel/generator-babel-boilerplate/wiki/Code-Climate).
-
-### Linting
-
-This boilerplate uses [ESLint](http://eslint.org/)
-and [JSCS](http://jscs.info/rules.html) to lint your source. To change the rules,
-edit the `.eslintrc` and `.jscsrc` files in the root directory, respectively.
-
-Given that your unit tests aren't your library code, it makes sense to
-lint them against a separate ESLint configuration. For this reason, a
-separate, unit-test specific `.eslintrc` can be found in the `test`
-directory. Unlike ESLint, the same JSCS rules are applied to both your code
-and your tests.
 
 ### FAQ
 
