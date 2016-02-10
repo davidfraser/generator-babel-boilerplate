@@ -1,7 +1,7 @@
 {
   "name": "generator-babel-webpack-boilerplate",
   "version": "0.1.0",
-  "description": "Generate a boilerplate for a library written in ES2015 for Node and the browser, using webpack.",
+  "description": "Generate a boilerplate for a library written in ES2015 for Node and the browser, using webpack and npm rather than gulp, and not including lint or travis.",
   "main": "app/index.js",
   "scripts": {
     "test": "mocha"
