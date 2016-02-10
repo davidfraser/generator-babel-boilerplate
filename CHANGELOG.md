@@ -1,3 +1,8 @@
+### [0.1.0](https://github.com/j5int/generator-babel-webpack-boilerplate/releases/tag/0.0.1)
+
+- Forked this project, and replaced gulp with using npm and webpack directly
+- Removed lint, coverage and travis etc
+
 ### [7.2.0](https://github.com/babel/babel-library-boilerplate/releases/tag/7.2.0)
 
 - JSCS now logs output when it fails
@@ -27,7 +32,7 @@
 - The `gulpfile` is now authored in ES2015
 - The `gulpfile` is now linted
 - The `gulpfile` has been cleaned up
-- The boilerplate should now support more Babel transforms. Because support for these things is always changing, I encourage you to try out the features you wish to use to see if they work. [File an issue](https://github.com/babel/generator-babel-boilerplate/issues/new) if they don't!
+- The boilerplate should now support more Babel transforms. Because support for these things is always changing, I encourage you to try out the features you wish to use to see if they work. [File an issue](https://github.com/j5int/generator-babel-webpack-boilerplate/issues/new) if they don't!
 - There's a new `npm` script solely for linting: `npm lint`
 - Webpack is now the sole build tool. It has replaced Esperanto (which is deprecated) and Browserify
 - Linting errors will no longer send an OS notification; instead, it will beep your terminal
