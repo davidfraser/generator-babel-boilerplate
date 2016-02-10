@@ -1,4 +1,4 @@
-### [0.1.0](https://github.com/j5int/generator-babel-webpack-boilerplate/releases/tag/0.0.1)
+### [0.1.0](https://github.com/j5int/generator-babel-webpack-boilerplate/releases/tag/0.1.0)
 
 - Forked this project, and replaced gulp with using npm and webpack directly
 - Removed lint, coverage and travis etc
