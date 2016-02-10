@@ -1,7 +1,7 @@
-# generator-babel-boilerplate
-[![Travis build status](http://img.shields.io/travis/babel/generator-babel-boilerplate.svg?style=flat)](https://travis-ci.org/babel/generator-babel-boilerplate)
-[![Dependency Status](https://david-dm.org/babel/generator-babel-boilerplate.svg)](https://david-dm.org/babel/generator-babel-boilerplate)
-[![devDependency Status](https://david-dm.org/babel/generator-babel-boilerplate/dev-status.svg)](https://david-dm.org/babel/generator-babel-boilerplate#info=devDependencies)
+# generator-babel-webpack-boilerplate
+[![Travis build status](http://img.shields.io/travis/j5int/generator-babel-webpack-boilerplate.svg?style=flat)](https://travis-ci.org/j5int/generator-babel-webpack-boilerplate)
+[![Dependency Status](https://david-dm.org/j5int/generator-babel-webpack-boilerplate.svg)](https://david-dm.org/j5int/generator-babel-webpack-boilerplate)
+[![devDependency Status](https://david-dm.org/j5int/generator-babel-webpack-boilerplate/dev-status.svg)](https://david-dm.org/j5int/generator-babel-webpack-boilerplate#info=devDependencies)
 
 A [Yeoman](http://yeoman.io/) generator to author libraries in ES2015 (and beyond!) for Node and the browser.
 
@@ -16,7 +16,7 @@ A [Yeoman](http://yeoman.io/) generator to author libraries in ES2015 (and beyon
 
 Install `yo` and this generator globally.
 
-`npm install -g yo generator-babel-boilerplate`
+`npm install -g yo generator-babel-webpack-boilerplate`
 
 ### Using Yeoman
 
@@ -27,7 +27,7 @@ Answer a few questions, and your project will be scaffolded.
 ### Basic Guide
 
 Write your code in `src`. The entry file is what you named the project in kebab case ([although the filename
-can be changed](https://github.com/babel/generator-babel-boilerplate#i-want-to-change-the-primary-source-file)).
+can be changed](https://github.com/j5int/generator-babel-webpack-boilerplate#i-want-to-change-the-primary-source-file)).
 
 Run `npm run build` to compile the source into a distributable format.
 
@@ -46,7 +46,7 @@ require the DOM API, see the `test/setup/node.js` file.
 
 ### Browser Tests
 
-The [browser spec runner](https://github.com/babel/generator-babel-boilerplate/blob/master/test/runner.html)
+The [browser spec runner](https://github.com/j5int/generator-babel-webpack-boilerplate/blob/master/test/runner.html)
 can be opened in a browser to run your tests. For it to work, you must first run `npm run build-browser-tests`.
 There is an option to watch and rebuild too.
 
@@ -90,7 +90,7 @@ As a rule of thumb, Babel works best in IE9 and above.
 
 #### Are there examples?
 
-Quite a few. Check them out on [the wiki](https://github.com/babel/generator-babel-boilerplate/wiki/Examples).
+Quite a few. Check them out on [the wiki](https://github.com/j5int/generator-babel-webpack-boilerplate/wiki/Examples).
 
 #### Is there a version for Node-only projects?
 
@@ -138,6 +138,6 @@ In the simplest case, you just need to install the module and use it in your scr
 If you want to access the module itself in your unit test files, you will need to set up the
 test environment to support the module. To do this:
 
-1. Load the module in the [test setup file](https://github.com/babel/generator-babel-boilerplate/blob/master/test/setup/setup.js).
+1. Load the module in the [test setup file](https://github.com/j5int/generator-babel-webpack-boilerplate/blob/master/test/setup/setup.js).
 2. Add any imported variables to globals object in the
-[test globals JSON](https://github.com/babel/generator-babel-boilerplate/blob/master/test/setup/.globals.js).
+[test globals JSON](https://github.com/j5int/generator-babel-webpack-boilerplate/blob/master/test/setup/.globals.js).
